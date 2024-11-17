@@ -1,0 +1,78 @@
+.medify{
+    
+    height: 96px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+     
+}
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+     height: 27px;
+     width: 92px;
+    margin-left: 100px;
+    cursor: pointer;
+    
+}
+.content{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    /* line-height: 27px;
+    letter-spacing: 0.02em; */
+    text-align: left;
+    color: #2AA8FF;
+    margin-left: 5px;
+
+    
+}
+.list{
+     
+    display: flex;
+     
+    height: 40px;
+     /* width: 912px; */
+    margin-right: 100px;
+    text-align: center;
+    justify-content: flex-start;
+     
+}
+.items{
+    display: flex;
+      
+     height: 18px;
+     gap: 40px;
+     font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #102851;
+
+    text-align: left;
+ 
+     list-style: none;
+}
+.items:hover{
+    cursor: pointer;
+}
+.booking{
+    display: inline-block;
+    background: #2AA8FF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+      height: 40px;
+      width: 130px;
+    text-align: center;
+     color: #ffffff;
+     border: none;
+     border-radius: 5px;
+     margin-left: 40px;
+     cursor: pointer;
+      
+    
+}
+ 

@@ -1,0 +1,146 @@
+.patient-caring-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    height: 598px;
+    min-width: 100vw;
+    padding-bottom: 30px;
+   margin-bottom: 40px;
+   margin-top: 40px;
+     
+ }
+  
+  .images-container {
+    margin-left: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+     
+  }
+  
+  .image-card {
+    position: relative;
+    max-width: 300px;
+  }
+  
+  .image-card img {
+    width: 332px;
+    height: 275px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  .image-card-overlay {
+    position: absolute;
+    bottom: -50%;  
+    z-index: 9;
+    transform: translate(-65%, 10%);
+  }
+  /* .image-card-overlay img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  } */
+  .badge {
+    position: absolute;
+    display: flex;
+   flex-direction: column;
+    
+    top: 50px;
+    left: -100px;
+    transform: translate(-40%, 10%);
+    background-color: #ffffff;
+    box-shadow: 0px 40px 40px -15px #94B6CE26;
+
+    color: #007bff;
+    width: 230px;
+    height: 80px;
+ 
+ 
+ 
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+     
+    align-items: left;
+    padding-left: 10px;
+   
+     
+  }
+  
+  .badge-icon {
+    margin-right: 5px;
+  }
+  
+  .badge-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #77829D;
+   
+
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-right: 100px;
+  }
+  
+  .subheading {
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .main-heading {
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+    
+    
+        color: #1B3C74;
+        
+  }
+  
+  .highlight {
+    color: #007bff;
+    font-family: Poppins;
+   font-size: 48px;
+   font-weight: 600;
+ 
+
+  }
+  
+  .description {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 29px;
+    color: #77829D;
+    
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features-list li {
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+ 
+color: #1B3C74;
+
+
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+   
+  

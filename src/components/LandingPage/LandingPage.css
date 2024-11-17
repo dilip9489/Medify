@@ -1,0 +1,119 @@
+
+.header:hover {
+    color: #2AA8FF;
+    cursor: pointer;
+}
+.section1{
+    height: 832px;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+
+}
+.container{
+    width: 663px;
+    height: 207px;
+}
+.article1{
+     
+    width: 663px;
+    height: 128px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: Poppins;
+font-size: 31px;
+font-weight: 500;
+ 
+text-align: left;
+}
+.article1 .typing-effect {
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap; /* it Keeps text on one line */
+    overflow: hidden; /* it Hides overflow during typing effect */
+    display: inline-block;
+    border-right: 2px solid #2AA7FF; /* it shows the thickness of Cursor effect */
+    animation: typing 3s infinite steps(40, end);
+  }
+.article2{
+    width: 570px;
+    height: 64px;
+    margin-left: 100px;
+    margin-top: 0px;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+ 
+text-align: left;
+}
+.text{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.text2{
+    color: #5C6169;
+
+}
+
+
+
+
+
+.main{
+    display: flex;
+    justify-content: space-between ;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+
+}
+.img{
+    /* width: 585px; */
+    /* height: 481px; */
+    margin-top: 20px;
+   margin-right: 100px;
+
+}
+.find-center{
+    width: 170px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 100px;
+    color: #ffffff;
+    background: #2AA8FF;
+    font-family: Poppins;
+   font-size: 16px;
+   font-weight: 500;
+   cursor: pointer;
+ 
+
+}
+.modal-overlay1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+@keyframes typing {
+    from {
+      width: 0;  
+    }
+    to {
+      width: 100%;  
+    }
+  }
+  /* @keyframes blink {
+    from {
+      border-right-color: #2AA7FF;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  } */

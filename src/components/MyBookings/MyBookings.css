@@ -1,0 +1,43 @@
+
+.date-time{
+    display: flex;
+    justify-content: flex-end;
+     align-items: center;
+    
+}
+.time{
+    display: inline-block;
+    width: 70px;
+    height: 15px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #2AA7FF;
+    border: 1px solid #2AA7FF;
+     
+}
+.date{
+    display: inline-block;
+    width: 110px;
+    height: 17px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #00A500;
+    border: 1px solid #00A500
+     
+}
+body{
+ background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+ 
+}

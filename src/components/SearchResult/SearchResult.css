@@ -1,0 +1,252 @@
+.offer{
+    display: inline-block;
+width: 363px;
+height: 270px;
+border-radius: 15px;
+ margin-right: 100px;
+}
+
+
+.search-results{
+    display: flex;
+    justify-content: space-between;
+    
+     gap: 40px;
+      
+      
+    margin-top: 200px;
+}
+
+.centers-list{
+/* width: 700px;
+    
+height: 270px;
+   margin-left: 100px;
+   border-radius: 15px; 
+display: flex;
+ background-color: #ffff;
+flex-direction: column;
+gap: 10px;
+justify-content: center;
+align-items: center; */
+.centers-list {
+   width: 700px;  
+   height: 270px;
+   display: flex;
+   flex-direction: column;  
+   gap: 20px;  
+   background-color: #ffff;
+   align-items: flex-start;  
+   margin-left: 100px;
+   padding: 10px;
+   
+}
+
+}
+.center-card{
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: left; */
+    display: flex;
+    flex-direction: row;  
+    padding: 10px;
+     margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+    border-radius: 15px;
+}
+.hospital-img{
+    display: flex;
+     
+     
+    justify-content: flex-start;
+}
+.hospital-details{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+        margin-left: 30px;
+}
+ .rating{
+    margin-top: 40px;
+     
+ }
+ .book-button{
+    margin-left: 200px;
+     width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background: #2AA7FF;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+ 
+
+ }
+ 
+ .loading{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+ }
+ .appointment-container {
+    
+    
+   
+   border-radius: 10px;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+ 
+   width: 600px;
+   
+ }
+ 
+ .date-selector {
+   display: flex;
+   align-items: center;
+    gap: 2px; 
+   margin-bottom: 10px;
+   position: relative;
+ }
+ .date-card h3{
+   
+   font-family: Lato;
+   font-size: 16px;
+   font-weight: 400;
+   color: #414146;
+   padding-top: 10px;
+   text-align: center;
+ }
+ .date-card p{
+   color: #01A400;
+   font-family: Lato;
+   font-size: 10px;
+   font-weight: 500;
+    padding-bottom: 10px;
+   text-align: center;
+   
+
+ }
+ 
+ .date-card {
+ 
+
+
+   
+   text-align: center;
+   cursor: pointer;
+    
+   
+   border-radius: 5px;
+   margin: 0 5px;
+ }
+ 
+ .date-card.active h3{
+   font-weight: 700;
+   color: #414146; 
+   font-weight: 800;
+   font-size: 18px;
+
+ }
+ 
+ .time-slots {
+   margin-top: 20px;
+   
+ }
+ 
+ .time-period {
+   display: flex;
+   align-items: center;
+    
+   margin-bottom: 10px;
+   gap: 10px;
+ }
+ 
+ 
+ 
+ .slots {
+    
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+ }
+ 
+ .slot {
+   width: 80px;
+   height: 30px;
+   text-align: center;
+    display: inline-block;
+   border: 1px solid #007bff;
+   background: #fff;
+   color: #007bff;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
+ }
+ 
+ .slot.selected,
+ .slot:hover {
+   background: #007bff;
+   color: #fff;
+ }
+
+ .confirm-button{
+   margin-left: 200px;
+    width: 200px;
+   height: 40px;
+   border-radius: 15px;
+   background: #2AA7FF;
+   color: #ffffff;
+   border: none;
+   cursor: pointer;
+   margin-bottom: 20px;
+
+
+
+}
+.custom-prev,
+.custom-next {
+   position: absolute;
+  top: 50%;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #E0E0E4;
+  background-color:#ffffff;
+  
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.custom-prev {
+  left: -25px;  
+}
+
+.custom-next {
+  right: -5px;  
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+   background: #01A400;
+
+}
+
+
+
+ 
+ 
+ 
